@@ -352,7 +352,7 @@ transform: rotate(-450deg) translateX(0.8rem);
 }
 
 .about-heading h1 {
-  color: rgba(37, 103, 158, 0.644);
+  color: #b93e3ee7;
   font-size: 10rem;/*
   color:rgb(76, 31, 134);*/
 }
