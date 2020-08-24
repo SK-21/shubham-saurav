@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html>
+<html>
+</html>
+<head>
+<title>Contact Form Test-acs</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+
+<style>
+.alert {
+  margin-bottom: 1em;
+  padding: 10px;
+  background: #49b0e7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2.5px;
+  display: none;
+}
+</style>
+</head>
+
+<body>
+
+    <!--<nav class="navbar-dar bg-primary">
+            <h3 style="text-align:center;">Connect</h3>
+    <a href="#" class="navbar-brand">Contact Me</a>   
+    </nav>-->
+    <div class="alert">Your message has been sent</div>
+    
+    <div id="contactForm" class="container mt-3 card card-body p-4">
+    <h4 class="text-center">Contact Form</h4>
+    <div class="form-group">
+        <label for="Name">Full Name</label>
+        <input type="text" 
+                name="Full Name"
+                id="userFullName"
+                class="form-control"
+                />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="Email" 
+                name="Email"
+                id="userEmail"
+                class="form-control"
+                />
+        <div class="form-group">
+        <label for="Message">Message</label>
+        <textarea  
+                name="Message"
+                id="userMessage"
+                class="form-control"
+                ></textarea>
+    </div>
+    <button id="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+	<script src="app.js"></script>
+	
+	
+</body>
+
+<html>
